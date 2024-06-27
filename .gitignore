@@ -1,0 +1,5 @@
+/.venv/
+/.venv/bin/
+/.venv/lib/
+/.venv/.gitignore
+/.venv/pyvenv.cfg
