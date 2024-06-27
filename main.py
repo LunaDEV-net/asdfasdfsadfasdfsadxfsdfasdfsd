@@ -3,6 +3,8 @@ from tkinter import messagebox
 from tkinter import ttk
 import os
 
+path: str = "anki_notes.txt"
+
 class AnkiNoteSaver:
     def __init__(self, root):
         self.root = root
@@ -72,7 +74,7 @@ class AnkiNoteSaver:
             messagebox.showwarning("Save Error", "No notes to save.")
             return
 
-        with open("anki_notes.txt", "w") as file:
+        with open(path, "w") as file:
             for note in self.notes:
                 file.write(f"{note[0]}\t{note[1]}\n")
 
@@ -82,36 +84,18 @@ class AnkiNoteSaver:
             self.tree.delete(item)
 
     def load_notes(self):
-        if os.path.exists("anki_notes.txt"):
-            with open("anki_notes.txt", "r") as file:
+        if os.path.exists(path):
+            with open(path, "r") as file:
                 for line in file:
                     field1, field2 = line.strip().split('\t')
                     self.notes.append((field1, field2))
                     self.tree.insert('', 'end', values=(field1, field2))
 
-    def update_edited_note_in_treeview(self):
-        if hasattr(self, 'selected_index'):
-            field1 = self.entry1.get()
-            field2 = self.entry2.get()
-
-            if not field1 or not field2:
-                messagebox.showwarning("Input Error", "Both fields must be filled out.")
-                return
-
-            self.notes.insert(self.selected_index, (field1, field2))
-            self.tree.insert('', self.selected_index, values=(field1, field2))
-
-            self.entry1.delete(0, tk.END)
-            self.entry2.delete(0, tk.END)
-            del self.selected_index
 
 # Create the main window and run the application
 root = tk.Tk()
 app = AnkiNoteSaver(root)
 
-# Add a new button to update the edited note
-update_button = tk.Button(root, text="Update Note", command=app.update_edited_note_in_treeview)
-update_button.grid(row=4, columnspan=2, pady=20)
 
 # Ensure the update button also resizes with the window
 root.grid_rowconfigure(4, weight=0)
