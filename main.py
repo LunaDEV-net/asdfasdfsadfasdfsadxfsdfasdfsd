@@ -39,8 +39,15 @@ class AnkiNoteSaver:
         root.grid_columnconfigure(0, weight=1)
         root.grid_columnconfigure(1, weight=1)
 
+        # Bind the Enter key to add_note method
+        root.bind('<Return>', self.add_note_by_enter)
+
         # Load existing notes
         self.load_notes()
+
+    def add_note_by_enter(self, event):
+        self.add_note()
+        self.entry1.focus_set()
 
     def add_note(self):
         field1 = self.entry1.get()
@@ -50,11 +57,18 @@ class AnkiNoteSaver:
             messagebox.showwarning("Input Error", "Both fields must be filled out.")
             return
 
+        field1 = self.entry1.get().replace('\n', '').replace('\r', '')
+        field2 = self.entry2.get().replace('\n', '').replace('\r', '')
+
+
         self.notes.append((field1, field2))
         self.tree.insert('', 'end', values=(field1, field2))
 
         self.entry1.delete(0, tk.END)
         self.entry2.delete(0, tk.END)
+
+        # Set focus back to Field 1
+        self.entry1.focus_set()
 
     def edit_note(self, event):
         selected_item = self.tree.selection()[0]
@@ -79,9 +93,6 @@ class AnkiNoteSaver:
                 file.write(f"{note[0]}\t{note[1]}\n")
 
         messagebox.showinfo("Success", "All notes saved successfully.")
-        self.notes.clear()
-        for item in self.tree.get_children():
-            self.tree.delete(item)
 
     def load_notes(self):
         if os.path.exists(path):
