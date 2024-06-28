@@ -1,9 +1,9 @@
-rōstra	rōstrōrum n. Pl. Rednerbühne (auf dem Forum Romanum)
-cīvis	cīvis m. (Gen. Pl.: cīvium) Bürger
-ager	agrī m. Acker, Feld
-pellere_	pellō, pepulī vertreiben
-probus	-a, -um anständig, tüchtig, gut
-labōrāre_	labōrō arbeiten, (+ Abl.:) an etwas leiden
+rōstra	rōstrōrum n. Pl.; Rednerbühne (auf dem Forum Romanum)
+cīvis	cīvis m. (Gen. Pl.: cīvium); Bürger
+ager	agrī m.; Acker, Feld
+pellere	pellō, pepulī, pulsum; vertreiben
+probus	-a, -um; anständig, tüchtig, gut
+labōrāre	labōrō, labōravi, labōratum; arbeiten, (+ Abl.:) an etwas leiden
 urgēre_	urgeō, ursī drängen, bedrängen
 ūnus	-a, -um (Gen. ūnīus, Dat. ūnī) einer
 grātia	grātiae f. Dank, Gunst, Beliebtheit
@@ -22,6 +22,6 @@ lūxuria	lūxuriae f. Genusssucht
 avāritia	avāritiae f. Habgier, Geiz
 quamdiū? 	wie lange?
 opprimere_	opprimō, oppressī unterdrücken
-lēx	lēgis f. Gesetz 
+lēx	lēgis f.; Gesetz
 accipere_	accipiō, accēpī annehmen, aufnehmen
 mūtāre_	mūtō verändern
