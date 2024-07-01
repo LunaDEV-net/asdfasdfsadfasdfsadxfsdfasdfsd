@@ -1,13 +1,13 @@
 Catō	Catōnis m.; Cato
-gravis 	gravis m.,gravis f.,grave n.;ernst, charakterfest
+gravis 	gravis, grave; ernst, charakterfest
 comes	comitis m.; Begleiter
 prōvincia	prōvinciae f.; Provinz 
 mōs	mōris m.; Sitte, Brauch
 illūstris	illūstre, illūstre; bekannt, berühmt
-cōgnōscere	cōgnōscō, cōgnōvī,cōgnitum; erfahren, in Erfahrungbringen, erkennen,kennenlernen
+cōgnōscere	cōgnōscō, cōgnōvī, cōgnitum; erfahren, in Erfahrung bringen, erkennen, kennenlernen
 grandis	grande, grande; groß, bedeutend 
 tunc	Adv.; dann, damals
-varius	-a, -um; verschieden, verschieden-artig
+varius	-a, -um; verschieden, verschiedenartig
 dīvidere	dīvidō, dīvīsī, dīvīsum; teilen, unterteilen
 singulāris	singulāre, singulāre; einzigartig
 velut	wie zum Beispiel
@@ -16,7 +16,7 @@ praebēre	praebeō, praebuī,praebitum; bieten, gewähren,anbieten
 omnis	omne, omne; jeder, ganz (Singular),alle (Plural)
 ubi	Konj.; als, sobald 
 rēgius	-a, -um; königlich
-audāx	audāx, audāx, audāx, Gen. audācis; wagemutig, frech
+audāx	audāx, audāx, Gen. audācis; wagemutig, frech
 audēre	audeō; wagen
 agere	agō, ēgī, āctum; handeln, tun
 alius	alia, aliud(Gen. alterīus, Dat. aliī); ein anderer

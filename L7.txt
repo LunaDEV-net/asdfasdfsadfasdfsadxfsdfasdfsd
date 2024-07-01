@@ -16,10 +16,10 @@ iūcundus	-a, -um; angenehm, erfreulich
 paucī	-ae, -a Pl.; wenige, nur wenige
 aqua	aquae f.; Wasser
 nihil	nichts
-cōgitāre	cōgitō; denken
+cōgitāre	cōgitō, cōgitāvi, cōgitātum; denken
 at	Konj.; aber
 vōx	vōcis f.; Stimme
-excitāre	excitō; aufschrecken, aufwecken
+excitāre	excitō, excitāvi, excitātum; aufschrecken, aufwecken
 patrōnus	patrōnī m.; Schutzherr, Patron
 sermō	sermōnis m.; Gespräch
 cōnsilium	cōnsiliī n.; Rat, Beratung
@@ -27,6 +27,6 @@ occupātus	-a, -um; beschäftigt
 molestus	-a, -um; lästig, unangenehm
 sēcum	bei sich
 aestās	aestātis f.; Sommer
-errāre	errō; irren, sich irren
+errāre	errō, errāvi, errātum; irren, sich irren
 longē	Adv.; weit
 ā, ab	Präp. + Abl.; von

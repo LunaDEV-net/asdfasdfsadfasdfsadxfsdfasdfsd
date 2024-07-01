@@ -9,7 +9,7 @@ gladiātor	gladiātōris m.; Gladiator
 valdē	Adv.; sehr
 arma	armōrum n. Pl.; Waffen
 gladius	gladiī m.; Schwert
-pūgnāre	pūgnō; kämpfen
+pūgnāre	pūgnō, pūgnāvi, pūgnātum; kämpfen
 petere	petō, petīvī, petītum; angreifen, aufsuchen, fordern, (er)bitten
 nōmen	nōminis n.; Name
 dēfendere	dēfendō, dēfendī, dēfēnsum; verteidigen
@@ -18,7 +18,7 @@ cadere	cadō, cecidī, _; fallen
 humī	auf dem Boden
 iacēre	iaceō; liegen
 rūrsus	Adv.; wieder, von neuem
-iactāre	iactō; werfen, schleudern
+iactāre	iactō, iactāvi, iactātum; werfen, schleudern
 in	Präp. + Akk.; 1. in (… hinein) 2. gegen
 intendere	intendō; (gegen jdn.) richten
 neque	Konj.; und nicht
